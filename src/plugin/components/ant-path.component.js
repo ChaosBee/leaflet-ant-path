@@ -105,7 +105,7 @@ export default class AntPath extends FeatureGroup {
       return;
     }
 
-    const zoomLevel = _map.getZoom();
+    const zoomLevel = 12;
     const animatedPolyElements = document.getElementsByClassName(_animatedPathId);
 
     //Get the animation duration (in seconds) based on the given delay and the current zoom level
